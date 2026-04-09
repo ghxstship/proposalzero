@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Cornbread Hemp x GHXSTSHIP — Custom Brand Activation Proposal",
   description:

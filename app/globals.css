@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+::selection { background: #D4782A; color: #fff; }
+body { margin: 0; background: #0a0a0a; }
+a { color: inherit; text-decoration: none; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@media (max-width: 768px) {
+  .g2 { grid-template-columns: 1fr !important; }
+  .nb { display: none !important; }
+  .fr { flex-wrap: wrap !important; }
+  .ht { font-size: 36px !important; }
+}

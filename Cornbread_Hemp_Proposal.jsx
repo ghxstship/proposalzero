@@ -397,15 +397,6 @@ export default function Proposal() {
 
   return (
     <div style={{ "--serif": "'Cormorant Garamond', Georgia, serif", background: "#FDF6EC", minHeight: "100vh", fontFamily: "Calibri, 'Gill Sans', sans-serif", color: "#2C1A0E" }}>
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
-        *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}::selection{background:#D4782A;color:#fff}
-        @keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
-        @keyframes slideIn{from{opacity:0;transform:translateX(-20px)}to{opacity:1;transform:translateX(0)}}
-        a{color:inherit;text-decoration:none}
-        @media(max-width:768px){.g2{grid-template-columns:1fr!important}.nb{display:none!important}.fr{flex-wrap:wrap!important}.ht{font-size:36px!important}}
-      `}</style>
-
       {/* NAV */}
       <nav className="nb" style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 100, background: "rgba(253,246,236,0.92)", backdropFilter: "blur(12px)", borderBottom: "1px solid rgba(232,224,212,0.6)", padding: "0 40px" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto", display: "flex", alignItems: "center", height: 48 }}>
