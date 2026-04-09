@@ -403,7 +403,7 @@ export default function Proposal() {
           <div style={{ fontWeight: 700, letterSpacing: 1.5, marginRight: "auto", display: "inline-flex", alignItems: "baseline", gap: 6 }}>
             <span data-brand="anton-nav" style={{ fontFamily: "'Anton', sans-serif", color: "#2C1A0E", fontSize: 12, lineHeight: 1, whiteSpace: "nowrap" }}>G H X S T S H I P</span>
             <span style={{ color: "rgba(44,26,14,0.35)", fontSize: 10, lineHeight: 1, whiteSpace: "nowrap" }}>x</span>
-            <span data-brand="serif-nav" style={{ fontFamily: "var(--serif)", color: "#2C1A0E", fontSize: 15.5, lineHeight: 1, whiteSpace: "nowrap" }}>AGORA GRAPHICS &amp; VISUALS</span>
+            <span data-brand="serif-nav" style={{ fontFamily: "var(--serif)", color: "#2C1A0E", fontSize: 15.5, lineHeight: 1, whiteSpace: "nowrap" }}>AGORA</span>
           </div>
           <div style={{ display: "flex", gap: 2 }}>
             {PHASES.map(p => (
@@ -802,7 +802,7 @@ export default function Proposal() {
             style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "#D4782A", color: "#fff", padding: "14px 28px", borderRadius: 6, fontSize: 13, fontWeight: 700, letterSpacing: 0.5, transition: "all 0.3s", boxShadow: "0 4px 16px rgba(212,120,42,0.25)" }}
             onMouseEnter={e => { e.currentTarget.style.background = "#B86320"; e.currentTarget.style.transform = "translateY(-2px)"; }}
             onMouseLeave={e => { e.currentTarget.style.background = "#D4782A"; e.currentTarget.style.transform = "none"; }}>Schedule Discovery Call &#8594;</a>
-          <a href="https://ghxstship.tours" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.experienceagora.com" target="_blank" rel="noopener noreferrer"
             style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "transparent", color: "#2C1A0E", padding: "14px 28px", borderRadius: 6, fontSize: 13, fontWeight: 700, letterSpacing: 0.5, border: "2px solid #2C1A0E", transition: "all 0.3s" }}
             onMouseEnter={e => { e.currentTarget.style.background = "#2C1A0E"; e.currentTarget.style.color = "#FDF6EC"; }}
             onMouseLeave={e => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.color = "#2C1A0E"; }}>Explore Our Portfolio</a>
@@ -821,7 +821,7 @@ export default function Proposal() {
               <div style={{ fontWeight: 700, letterSpacing: 2, marginBottom: 4, display: "flex", alignItems: "baseline", flexWrap: "wrap", columnGap: 8, rowGap: 4 }}>
                 <span data-brand="anton-foot" style={{ fontFamily: "'Anton', sans-serif", color: "#FFFFFF", fontSize: 15, lineHeight: 1, whiteSpace: "nowrap" }}>G H X S T S H I P</span>
                 <span style={{ color: "rgba(255,255,255,0.35)", fontSize: 12, lineHeight: 1, whiteSpace: "nowrap" }}>x</span>
-                <span data-brand="serif-foot" style={{ fontFamily: "var(--serif)", color: "#FFFFFF", fontSize: 19.5, lineHeight: 1, whiteSpace: "nowrap" }}>AGORA GRAPHICS & VISUALS</span>
+                <span data-brand="serif-foot" style={{ fontFamily: "var(--serif)", color: "#FFFFFF", fontSize: 19.5, lineHeight: 1, whiteSpace: "nowrap" }}>AGORA</span>
               </div>
               <div style={{ fontSize: 9, color: "rgba(255,255,255,0.35)", letterSpacing: 2, textTransform: "uppercase", marginBottom: 14 }}>Experiential Production Solutions & Technologies</div>
               <div style={{ fontSize: 10, color: "rgba(255,255,255,0.3)", letterSpacing: 1.5 }}>Miami | Orlando | New York | Chicago | Las Vegas | Los Angeles</div>
@@ -839,15 +839,13 @@ export default function Proposal() {
             <div>
               <div style={{ fontSize: 9, color: "#C49629", letterSpacing: 2, textTransform: "uppercase", fontWeight: 700, marginBottom: 12 }}>Connect</div>
               {[
-                { l: "ghxstship.tours", h: "https://ghxstship.tours" },
-                { l: "experienceagora.com", h: "https://www.experienceagora.com" },
-                { l: "Instagram", h: "https://instagram.com/ghxstship" },
-                { l: "LinkedIn", h: "https://linkedin.com/company/ghxstship-industries" },
+                { l: "Instagram", h: "https://instagram.com/ghxstship.tours" },
+                { l: "LinkedIn", h: "https://www.linkedin.com/company/ghxstship/" },
                 { l: "YouTube", h: "https://youtube.com/@ghxstship" },
-                { l: "TikTok", h: "https://tiktok.com/@ghxstship" },
+                { l: "TikTok", h: "https://tiktok.com/@ghxstship.tours" },
               ].map((s, i) => (
-                <a key={i} href={s.h} target="_blank" rel="noopener noreferrer" style={{ display: "block", fontSize: 11, color: i < 2 ? "rgba(255,255,255,0.7)" : "rgba(255,255,255,0.55)", fontWeight: i < 2 ? 600 : 400, marginBottom: 6, transition: "color 0.2s" }}
-                  onMouseEnter={e => e.currentTarget.style.color = "#C49629"} onMouseLeave={e => e.currentTarget.style.color = i < 2 ? "rgba(255,255,255,0.7)" : "rgba(255,255,255,0.55)"}>{s.l}</a>
+                <a key={i} href={s.h} target="_blank" rel="noopener noreferrer" style={{ display: "block", fontSize: 11, color: "rgba(255,255,255,0.55)", marginBottom: 6, transition: "color 0.2s" }}
+                  onMouseEnter={e => e.currentTarget.style.color = "#C49629"} onMouseLeave={e => e.currentTarget.style.color = "rgba(255,255,255,0.55)"}>{s.l}</a>
               ))}
             </div>
             <div>
